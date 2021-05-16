@@ -10,7 +10,7 @@ plugins {
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.9'
 }
-mainClassName = "de.hsrm.mi.swt.FxAmpelApp"
+
 
 // Konfiguration des JavaFX-Plugins: Version und benötigte Module
 javafx {
