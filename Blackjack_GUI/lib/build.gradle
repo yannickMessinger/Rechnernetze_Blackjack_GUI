@@ -12,25 +12,25 @@ plugins {
 }
 
 
-// Konfiguration des JavaFX-Plugins: Version und benötigte Module
+// Konfiguration des JavaFX-Plugins: Version und benï¿½tigte Module
 javafx {
     version = "11.0.1"
     modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
 
-// Abzufragendes Internet-Repository für Bibliotheken (z.B. JavaFX)
+// Abzufragendes Internet-Repository fï¿½r Bibliotheken (z.B. JavaFX)
 repositories {
-    jcenter()
+   mavenCentral()
 }
 
-// Abhängigkeiten (einzubindende Bibliotheken), Suche: https://search.maven.org/
+// Abhï¿½ngigkeiten (einzubindende Bibliotheken), Suche: https://search.maven.org/
 dependencies {
     // implementation 'org.python:jython-standalone:2.7.2'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.1'
 }
 
-// Initialisierung für JUnit-Testing
+// Initialisierung fï¿½r JUnit-Testing
 test {
     useJUnitPlatform()
 }
